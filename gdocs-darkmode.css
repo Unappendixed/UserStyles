@@ -1,0 +1,45 @@
+:root {
+    --custom-color: #b548d5;
+/* SET THIS TO WHATEVER YOU WANT YOUR EDITS TO LOOK LIKE */
+}
+
+body {
+    filter: invert() hue-rotate(180deg);
+}
+
+/* MAKE THE TEXT WHITE IF IT WASN'T ALREADY BLACK */
+/* span, p {
+    color: #222222 !important;
+} */
+
+.docos-avatar, .onegoogle-material-minibar {
+    filter: invert() hue-rotate(180deg);
+}
+
+.kix-commentoverlayrenderer-highlighted {
+    
+    filter: brightness(70%) saturate(60%) !important;
+
+}
+
+.kix-commentoverlayrenderer-normal {
+    filter: brightness(70%) saturate(60%) !important;
+}
+
+/* UNCOMMENT THE WHOLE BLOCK BELOW IF YOU WANT THE CUSTOM SUGGESTION COLOURS TO APPLY */
+
+/*
+span.suggestion-text-green {
+    border-color: var(--custom-color) !important;
+    color: var(--custom-color) !important;
+}
+
+.suggest-changes-top-colorbar, .suggest-changes-bottom-colorbar,
+.suggest-changes-colorbar-arrow-up-ltr, .suggest-changes-colorbar-arrow-down-ltr {
+    border-top-color: var(--custom-color) !important;
+    border-bottom-color: var(--custom-color) !important;
+}
+
+.kix-lineview-decorations div {
+    border-top: 3px solid var(--custom-color) !important;
+} */
