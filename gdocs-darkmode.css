@@ -12,7 +12,7 @@ body {
     color: #222222 !important;
 } */
 
-.docos-avatar, .onegoogle-material-minibar {
+.docos-avatar, .onegoogle-material-minibar, .docs-presence-plus-collab-widget-image-container {
     filter: invert() hue-rotate(180deg);
 }
 
@@ -33,13 +33,11 @@ span.suggestion-text-green {
     border-color: var(--custom-color) !important;
     color: var(--custom-color) !important;
 }
-
 .suggest-changes-top-colorbar, .suggest-changes-bottom-colorbar,
 .suggest-changes-colorbar-arrow-up-ltr, .suggest-changes-colorbar-arrow-down-ltr {
     border-top-color: var(--custom-color) !important;
     border-bottom-color: var(--custom-color) !important;
 }
-
 .kix-lineview-decorations div {
     border-top: 3px solid var(--custom-color) !important;
 } */
